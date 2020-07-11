@@ -1,0 +1,178 @@
+body{
+    box-sizing: border-box;
+}
+.position{
+    position: relative;
+}
+.box{
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+}
+.icon{
+    color: #ce7b77;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.box1{
+    position: absolute;
+    top: 100px;
+    background: white;
+    left: 30px;
+}
+.offer-text{
+    margin-top: 50px;
+}
+.offer-para{
+    width: 500px;
+}
+ .offer-butn{
+     margin-top: 150px;
+     background-color: transparent;
+     color: rgb(28,81,85);
+     border: none;
+     border: 1px solid rgb(28,81,85);
+     padding: 20px;
+     margin-top: 100px;
+     margin-left: 80px;
+ }
+ .offer-butn:hover,
+ .butn button:hover{
+     color: white;
+     background-color: rgb(28,81,85);
+ }
+ strong{
+  color: rgb(111,148,150); 
+  font-size: 35px;
+ }
+ button{
+    margin-top: 150px;
+    background-color: transparent;
+    color: rgb(28,81,85);
+    border: none;
+    border: 1px solid rgb(28,81,85);
+    padding: 20px;
+ }
+ .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+ .iframe-container iframe{
+    border: 0;
+    height: 70%;
+    left: 0; 
+     position: absolute; 
+     top: 0;
+    width: 100%;
+    opacity: 0.5;
+ }
+ .img-map{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    z-index: 1;
+ }
+ .reservation{
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    padding: 20px;
+ }
+ .info{
+    border: 1px solid white;
+    background-color: white;
+     position: absolute;
+     top: 300px;
+     left: 700px;
+     padding: 20px;
+ }
+ .butn{
+    position: absolute;
+    top: 350px;
+    left: 930px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 40px;
+ }
+ .butn button{
+    background-color: transparent;
+    color: rgb(28,81,85);
+    border: none;
+    border: 1px solid rgb(28,81,85);
+    padding: 20px; 
+ }
+ ul li{
+     list-style: none;
+     font-style: italic;
+ }
+ .footer{
+     background-color: rgb(31,23,7);
+     margin-top: -200px;
+     padding: 40px;
+     /* border-bottom: 1px solid rgb(140,96,22);; */
+ }
+ .footer ul{
+     color: rgb(219,215,215);
+     letter-spacing: 2px;
+     font-weight: 800;
+     margin-bottom: 50px;
+     /* border-bottom: 1px solid rgb(140,96,22);; */
+ }
+ .footer ul li{
+   color: rgb(107,127,115); 
+   letter-spacing: normal;
+   font-weight: normal;
+   /* border-bottom: 1px solid rgb(140,96,22); */
+ }
+ .footer ul li>i{
+     font-size: 15px;
+     color: rgb(28,81,85);
+     padding: 3px;
+ }
+ input[type=text]{
+    background-color: rgb(38,32,19);
+    padding: 15px;
+    border: none;
+}
+input[type=text]:placeholder-shown{
+    color: rgb(134,155,141);
+    font-style: italic;
+}
+input[type=submit]{
+    color: rgb(140,96,22);
+    background: transparent;
+    border: 1px solid rgb(140,96,22);
+    padding: 20px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(107,127,115);
+    border-top: 1px solid rgb(140,96,22);
+    font-style: italic;
+    /* margin-left: 300px; */
+    margin: auto;
+    padding: 10px;
+}
+.amenities{
+    background-color: rgb(248,245,237);
+}
+.amenities h4{
+    margin-left: 20px;
+    font-weight: 700;
+    padding: 30px;
+}
+.amenities div >i{
+    font-size: 40px;
+    color: rgb(152,178,177);
+}
+.review{
+    color: rgb(113,175,236);
+}
